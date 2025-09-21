@@ -2,6 +2,8 @@
 # VOTFY
 
 VOTFY est une plateforme web collaborative de vote/propositions/groupes, conçue pour des usages tels que les réunions associatives, les décisions d’équipe, ou les consultations citoyennes.
+
+
 demo : http://webdev.iut-orsay.fr/~nboulad/VOTFY/views/login.php
 ---
 
