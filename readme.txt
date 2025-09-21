@@ -1,6 +1,7 @@
 
 VOTIFY
 Description du projet
+demo : http://webdev.iut-orsay.fr/~nboulad/VOTFY/views/login.php
 VOTIFY est une plateforme web collaborative permettant la gestion de groupes, la soumission de propositions, le vote en ligne, et la consultation des résultats. L'application est conçue pour être utilisée dans des contextes variés tels que les réunions associatives, les décisions d'équipe, ou encore les consultations citoyennes.
 
 Le projet respecte une architecture MVC (Modèle-Vue-Contrôleur) avec une organisation modulaire, intégrant des fonctionnalités telles que :
