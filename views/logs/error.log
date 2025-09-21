@@ -1,0 +1,382 @@
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+Tentative d'ajout de commentaire Proposition ID=20, Données={"proposition_id":20,"utilisateur_id":14,"contenu":"k"}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires, METHOD=POST
+Données envoyées : {"proposition_id":20,"utilisateur_id":14,"contenu":"k"}
+Erreur de décodage JSON : Syntax error
+Erreur ajout commentaire : Réponse JSON invalide
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"},{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"},{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"},{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Tentative d'ajout de commentaire Proposition ID=31, Données={"proposition_id":31,"utilisateur_id":14,"contenu":"ll"}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires, METHOD=POST
+Données envoyées : {"proposition_id":31,"utilisateur_id":14,"contenu":"ll"}
+Erreur de décodage JSON : Syntax error
+Erreur ajout commentaire : Réponse JSON invalide
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"},{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Tentative d'ajout de commentaire Proposition ID=31, Données={"proposition_id":31,"utilisateur_id":14,"contenu":"ll"}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires, METHOD=POST
+Données envoyées : {"proposition_id":31,"utilisateur_id":14,"contenu":"ll"}
+Erreur de décodage JSON : Syntax error
+Erreur ajout commentaire : Réponse JSON invalide
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Erreur lors de la mise à jour du groupe : Permission refusée
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"},{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/20, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":53,"id_proposition":20,"id_utilisateur":14,"texte":"l","date_commentaire":"2025-01-07","etat":"actif"},{"id_commentaire":55,"id_proposition":20,"id_utilisateur":14,"texte":"oe","date_commentaire":"2025-01-09","etat":"actif"},{"id_commentaire":56,"id_proposition":20,"id_utilisateur":14,"texte":"k","date_commentaire":"2025-01-09","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-07","etat":"ouverte","duree":2522,"numero_tour":1,"budget":"222.00"},{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Tentative de clôture Proposition ID=20, Données={"user_id":69,"group_id":11,"required_level":3}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/close/20, METHOD=PUT
+Données envoyées : {"user_id":69,"group_id":11,"required_level":3}
+Réponse API : {"status":"success","message":"Proposition ferm\u00e9e avec succ\u00e8s"}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Tentative de clôture Proposition ID=31, Données={"user_id":69,"group_id":11,"required_level":3}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/close/31, METHOD=PUT
+Données envoyées : {"user_id":69,"group_id":11,"required_level":3}
+Réponse API : {"status":"error","message":"Permission refus\u00e9e"}
+Erreur clôture : Permission refusée
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Tentative de clôture Proposition ID=31, Données={"user_id":69,"group_id":11,"required_level":3}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/close/31, METHOD=PUT
+Données envoyées : {"user_id":69,"group_id":11,"required_level":3}
+Réponse API : {"status":"error","message":"Permission refus\u00e9e"}
+Erreur clôture : Permission refusée
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":31,"id_groupe":11,"id_createur":14,"titre":"ppppp","description":"ppppp","date_proposition":"2025-01-10","etat":"ouverte","duree":14,"numero_tour":1,"budget":"32.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/31, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":57,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":58,"id_proposition":31,"id_utilisateur":14,"texte":"ll","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/43, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":30,"id_groupe":43,"id_createur":14,"titre":"pp","description":"ppp","date_proposition":"2025-01-07","etat":"ouverte","duree":38,"numero_tour":1,"budget":"-2.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/30, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/43, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":30,"id_groupe":43,"id_createur":14,"titre":"pp","description":"ppp","date_proposition":"2025-01-07","etat":"ouverte","duree":38,"numero_tour":1,"budget":"-2.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/30, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/43, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":30,"id_groupe":43,"id_createur":14,"titre":"pp","description":"ppp","date_proposition":"2025-01-07","etat":"ouverte","duree":38,"numero_tour":1,"budget":"-2.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/30, METHOD=GET
+Erreur API : Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/30): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+    [file] => /home/nboulad/public_html/VOTFY/views/propositions.php
+    [line] => 25
+)
+
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/43, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":30,"id_groupe":43,"id_createur":14,"titre":"pp","description":"ppp","date_proposition":"2025-01-07","etat":"ouverte","duree":38,"numero_tour":1,"budget":"-2.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions, METHOD=POST
+Données envoyées : {"proposition_id":30,"utilisateur_id":14,"reaction":"like"}
+Erreur API : Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+    [file] => /home/nboulad/public_html/VOTFY/views/propositions.php
+    [line] => 25
+)
+
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/30, METHOD=GET
+Erreur API : Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/30): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+    [file] => /home/nboulad/public_html/VOTFY/views/propositions.php
+    [line] => 25
+)
+
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/43, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":30,"id_groupe":43,"id_createur":14,"titre":"pp","description":"ppp","date_proposition":"2025-01-07","etat":"ouverte","duree":38,"numero_tour":1,"budget":"-2.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/30, METHOD=GET
+Erreur API : Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/30): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+    [file] => /home/nboulad/public_html/VOTFY/views/propositions.php
+    [line] => 25
+)
+
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/14, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/14, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":33,"id_groupe":41,"id_createur":14,"titre":"scqccqsqsc","description":"qsccc","date_proposition":"2025-01-10","etat":"ouverte","duree":2000,"numero_tour":1,"budget":"2000.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/33, METHOD=GET
+Erreur API : Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/33): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+    [file] => /home/nboulad/public_html/VOTFY/views/propositions.php
+    [line] => 25
+)
+
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":33,"id_groupe":41,"id_createur":14,"titre":"scqccqsqsc","description":"qsccc","date_proposition":"2025-01-10","etat":"ouverte","duree":2000,"numero_tour":1,"budget":"2000.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/33, METHOD=GET
+Erreur API : Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/33): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+    [file] => /home/nboulad/public_html/VOTFY/views/propositions.php
+    [line] => 26
+)
+
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":33,"id_groupe":41,"id_createur":14,"titre":"scqccqsqsc","description":"qsccc","date_proposition":"2025-01-10","etat":"ouverte","duree":2000,"numero_tour":1,"budget":"2000.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/33, METHOD=GET
+Erreur API : Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/33): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+    [file] => /home/nboulad/public_html/VOTFY/views/propositions.php
+    [line] => 26
+)
+
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/33, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":33,"id_groupe":41,"id_createur":14,"titre":"scqccqsqsc","description":"qsccc","date_proposition":"2025-01-10","etat":"ouverte","duree":2000,"numero_tour":1,"budget":"2000.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions, METHOD=POST
+Données envoyées : {"proposition_id":33,"utilisateur_id":14,"reaction":"like"}
+Erreur API : Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+    [file] => /home/nboulad/public_html/VOTFY/views/propositions.php
+    [line] => 26
+)
+
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/33, METHOD=GET
+Erreur API : Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/reactions/33): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+    [file] => /home/nboulad/public_html/VOTFY/views/propositions.php
+    [line] => 26
+)
+
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/33, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":33,"id_groupe":41,"id_createur":14,"titre":"scqccqsqsc","description":"qsccc","date_proposition":"2025-01-10","etat":"ouverte","duree":2000,"numero_tour":1,"budget":"2000.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/33, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":33,"id_groupe":41,"id_createur":14,"titre":"scqccqsqsc","description":"qsccc","date_proposition":"2025-01-10","etat":"ouverte","duree":2000,"numero_tour":1,"budget":"2000.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/33, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":33,"id_groupe":41,"id_createur":14,"titre":"scqccqsqsc","description":"qsccc","date_proposition":"2025-01-10","etat":"ouverte","duree":2000,"numero_tour":1,"budget":"2000.00"}]}
+Tentative d'ajout de commentaire Proposition ID=33, Données={"proposition_id":33,"utilisateur_id":14,"contenu":"sqsscqs"}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires, METHOD=POST
+Données envoyées : {"proposition_id":33,"utilisateur_id":14,"contenu":"sqsscqs"}
+Erreur de décodage JSON : Syntax error
+Erreur ajout commentaire : Réponse JSON invalide
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/33, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":59,"id_proposition":33,"id_utilisateur":14,"texte":"sqsscqs","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":33,"id_groupe":41,"id_createur":14,"titre":"scqccqsqsc","description":"qsccc","date_proposition":"2025-01-10","etat":"ouverte","duree":2000,"numero_tour":1,"budget":"2000.00"}]}
+Tentative d'ajout de commentaire Proposition ID=33, Données={"proposition_id":33,"utilisateur_id":14,"contenu":"qscqcscq"}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires, METHOD=POST
+Données envoyées : {"proposition_id":33,"utilisateur_id":14,"contenu":"qscqcscq"}
+Erreur de décodage JSON : Syntax error
+Erreur ajout commentaire : Réponse JSON invalide
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/33, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":59,"id_proposition":33,"id_utilisateur":14,"texte":"sqsscqs","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":60,"id_proposition":33,"id_utilisateur":14,"texte":"qscqcscq","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":33,"id_groupe":41,"id_createur":14,"titre":"scqccqsqsc","description":"qsccc","date_proposition":"2025-01-10","etat":"ouverte","duree":2000,"numero_tour":1,"budget":"2000.00"}]}
+Tentative d'ajout de commentaire Proposition ID=33, Données={"proposition_id":33,"utilisateur_id":14,"contenu":"qscqcscq"}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires, METHOD=POST
+Données envoyées : {"proposition_id":33,"utilisateur_id":14,"contenu":"qscqcscq"}
+Erreur de décodage JSON : Syntax error
+Erreur ajout commentaire : Réponse JSON invalide
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/33, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":59,"id_proposition":33,"id_utilisateur":14,"texte":"sqsscqs","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":60,"id_proposition":33,"id_utilisateur":14,"texte":"qscqcscq","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":61,"id_proposition":33,"id_utilisateur":14,"texte":"qscqcscq","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/41, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":33,"id_groupe":41,"id_createur":14,"titre":"scqccqsqsc","description":"qsccc","date_proposition":"2025-01-10","etat":"ouverte","duree":2000,"numero_tour":1,"budget":"2000.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/33, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":59,"id_proposition":33,"id_utilisateur":14,"texte":"sqsscqs","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":60,"id_proposition":33,"id_utilisateur":14,"texte":"qscqcscq","date_commentaire":"2025-01-10","etat":"actif"},{"id_commentaire":61,"id_proposition":33,"id_utilisateur":14,"texte":"qscqcscq","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":34,"id_groupe":11,"id_createur":14,"titre":"aa","description":"aaaa","date_proposition":"2025-01-10","etat":"ouverte","duree":24,"numero_tour":1,"budget":"4500.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/34, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":34,"id_groupe":11,"id_createur":14,"titre":"aa","description":"aaaa","date_proposition":"2025-01-10","etat":"ouverte","duree":24,"numero_tour":1,"budget":"4500.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/34, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":34,"id_groupe":11,"id_createur":14,"titre":"aa","description":"aaaa","date_proposition":"2025-01-10","etat":"ouverte","duree":24,"numero_tour":1,"budget":"4500.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/34, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/46, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":35,"id_groupe":46,"id_createur":69,"titre":"a","description":"a","date_proposition":"2025-01-10","etat":"ouverte","duree":10,"numero_tour":1,"budget":"73.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/35, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/46, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":35,"id_groupe":46,"id_createur":69,"titre":"a","description":"a","date_proposition":"2025-01-10","etat":"ouverte","duree":10,"numero_tour":1,"budget":"73.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/35, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/46, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":35,"id_groupe":46,"id_createur":69,"titre":"a","description":"a","date_proposition":"2025-01-10","etat":"ouverte","duree":10,"numero_tour":1,"budget":"73.00"}]}
+Tentative d'ajout de commentaire Proposition ID=35, Données={"proposition_id":35,"utilisateur_id":69,"contenu":"o"}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires, METHOD=POST
+Données envoyées : {"proposition_id":35,"utilisateur_id":69,"contenu":"o"}
+Erreur de décodage JSON : Syntax error
+Erreur ajout commentaire : Réponse JSON invalide
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/35, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":62,"id_proposition":35,"id_utilisateur":69,"texte":"o","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/46, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":35,"id_groupe":46,"id_createur":69,"titre":"a","description":"a","date_proposition":"2025-01-10","etat":"ouverte","duree":10,"numero_tour":1,"budget":"73.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/35, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":62,"id_proposition":35,"id_utilisateur":69,"texte":"o","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/46, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":35,"id_groupe":46,"id_createur":69,"titre":"a","description":"a","date_proposition":"2025-01-10","etat":"ouverte","duree":10,"numero_tour":1,"budget":"73.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/35, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":62,"id_proposition":35,"id_utilisateur":69,"texte":"o","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/46, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":35,"id_groupe":46,"id_createur":69,"titre":"a","description":"a","date_proposition":"2025-01-10","etat":"ouverte","duree":10,"numero_tour":1,"budget":"73.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/35, METHOD=GET
+Réponse API : {"status":"success","comments":[{"id_commentaire":62,"id_proposition":35,"id_utilisateur":69,"texte":"o","date_commentaire":"2025-01-10","etat":"actif"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/46, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":35,"id_groupe":46,"id_createur":69,"titre":"a","description":"a","date_proposition":"2025-01-10","etat":"ouverte","duree":10,"numero_tour":1,"budget":"73.00"}]}
+Tentative de clôture Proposition ID=35, Données={"user_id":69,"group_id":46,"required_level":3}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/close/35, METHOD=PUT
+Données envoyées : {"user_id":69,"group_id":46,"required_level":3}
+Réponse API : {"status":"success","message":"Proposition ferm\u00e9e avec succ\u00e8s"}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/46, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/46, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/46, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":34,"id_groupe":11,"id_createur":14,"titre":"aa","description":"aaaa","date_proposition":"2025-01-10","etat":"ouverte","duree":24,"numero_tour":1,"budget":"4500.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/34, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/11, METHOD=GET
+Réponse API : {"status":"success","propositions":[{"id_proposition":34,"id_groupe":11,"id_createur":14,"titre":"aa","description":"aaaa","date_proposition":"2025-01-10","etat":"ouverte","duree":24,"numero_tour":1,"budget":"4500.00"}]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/commentaires/34, METHOD=GET
+Réponse API : {"status":"success","comments":[]}
+Appel API : URL=https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/propositions/group/46, METHOD=GET
+Réponse API : {"status":"success","propositions":[]}

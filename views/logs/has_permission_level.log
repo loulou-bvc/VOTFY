@@ -1,0 +1,116 @@
+Fonction 'has_permission_level' supprimée avec succès.
+Fonction 'has_permission_level' créée avec succès.
+Détails de la fonction 'has_permission_level' : Array
+(
+    [Function] => has_permission_level
+    [sql_mode] => STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+    [Create Function] => CREATE DEFINER=`saes3-nboulad`@`%` FUNCTION `has_permission_level`(userId INT, groupId INT, requiredLevel INT) RETURNS tinyint(1)
+BEGIN
+        DECLARE permissionCount INT;
+
+        SELECT COUNT(*)
+        INTO permissionCount
+        FROM Membre_Groupe
+        WHERE id_utilisateur = userId
+          AND id_groupe = groupId
+          AND niveau >= requiredLevel;
+
+        RETURN permissionCount > 0;
+    END
+    [character_set_client] => utf8mb3
+    [collation_connection] => utf8mb3_general_ci
+    [Database Collation] => utf8mb4_general_ci
+)
+
+Fonction 'has_permission_level' supprimée avec succès.
+Fonction 'has_permission_level' créée avec succès.
+Détails de la fonction 'has_permission_level' : Array
+(
+    [Function] => has_permission_level
+    [sql_mode] => STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+    [Create Function] => CREATE DEFINER=`saes3-nboulad`@`%` FUNCTION `has_permission_level`(userId INT, groupId INT, requiredLevel INT) RETURNS tinyint(1)
+BEGIN
+        DECLARE permissionCount INT;
+
+        SELECT COUNT(*)
+        INTO permissionCount
+        FROM Membre_Groupe
+        WHERE id_utilisateur = userId
+          AND id_groupe = groupId
+          AND niveau_permission >= requiredLevel;
+
+        RETURN permissionCount > 0;
+    END
+    [character_set_client] => utf8mb3
+    [collation_connection] => utf8mb3_general_ci
+    [Database Collation] => utf8mb4_general_ci
+)
+
+Fonction 'has_permission_level' supprimée avec succès.
+Fonction 'has_permission_level' créée avec succès.
+Détails de la fonction 'has_permission_level' : Array
+(
+    [Function] => has_permission_level
+    [sql_mode] => STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+    [Create Function] => CREATE DEFINER=`saes3-nboulad`@`%` FUNCTION `has_permission_level`(userId INT,
+    idGroupe INT,
+    requiredLevel INT
+) RETURNS tinyint(1)
+BEGIN
+    DECLARE userPermissionLevel INT;
+
+    -- Récupérer le niveau de permission de l'utilisateur dans le groupe
+    SELECT r.niveau_permission
+    INTO userPermissionLevel
+    FROM Role r
+    JOIN Membre_Groupe mg ON mg.id_role = r.id_role
+    WHERE mg.id_utilisateur = userId AND mg.id_groupe = idGroupe
+    LIMIT 1;
+
+    -- Comparer le niveau de permission de l'utilisateur au niveau requis
+    IF userPermissionLevel >= requiredLevel THEN
+        RETURN TRUE;
+    ELSE
+        RETURN FALSE;
+    END IF;
+END
+    [character_set_client] => utf8mb3
+    [collation_connection] => utf8mb3_general_ci
+    [Database Collation] => utf8mb4_general_ci
+)
+
+Fonction 'has_permission_level' supprimée avec succès.
+Erreur lors de la mise à jour de la fonction 'has_permission_level' : SQLSTATE[HY000]: General error: 1005 Can't create table `saes3-nboulad`.`Commentaire` (errno: 121 "Duplicate key on write or update")
+Fonction 'has_permission_level' supprimée avec succès.
+Fonction 'has_permission_level' créée avec succès.
+Détails de la fonction 'has_permission_level' : Array
+(
+    [Function] => has_permission_level
+    [sql_mode] => STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+    [Create Function] => CREATE DEFINER=`saes3-nboulad`@`%` FUNCTION `has_permission_level`(userId INT,
+    idGroupe INT,
+    requiredLevel INT
+) RETURNS tinyint(1)
+BEGIN
+    DECLARE userPermissionLevel INT;
+
+    -- Récupérer le niveau de permission de l'utilisateur dans le groupe
+    SELECT r.niveau_permission
+    INTO userPermissionLevel
+    FROM Role r
+    JOIN Membre_Groupe mg ON mg.id_role = r.id_role
+    WHERE mg.id_utilisateur = userId AND mg.id_groupe = idGroupe
+    LIMIT 1;
+
+    -- Comparer le niveau de permission de l'utilisateur au niveau requis
+    IF userPermissionLevel >= requiredLevel THEN
+        RETURN TRUE;
+    ELSE
+        RETURN FALSE;
+    END IF;
+END
+    [character_set_client] => utf8mb3
+    [collation_connection] => utf8mb3_general_ci
+    [Database Collation] => utf8mb4_general_ci
+)
+

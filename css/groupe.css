@@ -1,0 +1,461 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background-color: #f4b3ca;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    position: relative; /* Nécessaire pour positionner le pseudo-élément */
+    z-index: 1; /* Place le contenu au-dessus */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    top: 50%; /* Place les flèches au milieu verticalement */
+    transform: translateY(-50%); /* Centre parfaitement */
+    width: auto; /* Ajuste la largeur automatiquement */
+    z-index: 10; /* Garde les flèches au-dessus du contenu */
+}
+.carousel-control-prev {
+    left: -3%; /* Ajuste l'écart à gauche */
+}
+
+.carousel-control-next {
+    right: -3%; /* Ajuste l'écart à droite */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur semi-transparente */
+    border-radius: 50%; /* Rendre les flèches circulaires */
+    padding: 10px; /* Ajouter de l'espace autour des icônes */
+
+}
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.8); /* Changer la couleur au survol */
+}
+.carousel .btn-primary {
+    background-color: #1D3557;
+    border: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.carousel .btn-primary:hover {
+    background-color: #457B9D;
+}
+.card-text{
+    margin-bottom: 4rem;
+}
+.card {
+    width: 100%;
+    max-width: 260px;
+    min-width: 190px;
+    height: 250px;
+    background-color: #292929;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 75px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Grille des groupes */
+.groups-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+}
+
+.btn-nouvelle-prop {
+    background-color: #FFCAD4;
+    color: #1D3557;
+    border: none;
+    padding: 20px 47px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.btn-container1{
+    display: flex  ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-nouvelle-prop:hover {
+    background-color: #F78FB3; /* Couleur au survol */
+    color: white; /* Texte blanc au survol */
+    transform: scale(1.1); /* Zoom au survol */
+}
+
+
+/* Navigation */
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 55px;
+}
+
+
+.group-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .header-title {
+        font-size: 1.5em;
+    }
+
+    .back-arrow {
+        position: relative;
+        left: 0;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .btn-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .group-details {
+        padding: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-title {
+        font-size: 1.2em;
+    }
+
+    .nav-list {
+        gap: 10px;
+    }
+
+    .btn {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+
+    .btn-container {
+        margin-top: 15px;
+    }
+}
+
+main {
+    position: relative; /* Nécessaire pour le positionnement du ::before */
+    overflow: hidden;
+}
+    /* Grille des groupes */
+    .groups-grid {
+        display: flex;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        padding: 30px;
+        padding-bottom: 150px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Centre le contenu horizontalement */
+        position: relative; /* Nécessaire pour positionner la flèche */
+        padding: 20px;
+        flex-direction: column;
+        background-color: #F78FB3; /* Couleur rose comme dans l'exemple */
+    }
+    .header-container2{
+        padding-top: 20px;
+    }
+
+    /* Titre centré */
+    .header-title {
+        color: white; /* Couleur du texte */
+        margin: 0;
+    }
+
+    /* Flèche de retour */
+    .back-arrow {
+        position: absolute;
+        left: 30px; /* Place la flèche à gauche dans le header */
+        font-size: 36px; /* Taille de l'icône */
+        color: whitesmoke; /* Couleur rouge */
+        text-decoration: none;
+        transition: transform 0.2s ease;
+    }
+
+    .back-arrow:hover {
+        transform: scale(1.2); /* Zoom au survol */
+        color: white; /* Couleur au survol */
+    }
+
+    /* Carte de groupe */
+    .cardg {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 1px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+        min-width: 350px;
+        height: 530px;
+        margin: 10px;
+        padding: 30px;
+        padding-top: 50px;
+        border-radius: 75px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+        border: 2px solid rgba(7, 7, 7, 0.12);
+        font-size: 16px;
+        transition: all 0.3s ease;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .cardg:hover {
+        height: 600px;
+    }
+
+    /* Conteneur pour centrer le bouton */
+    .btn-container {
+        display: flex;
+        justify-content: center; /* Centre horizontalement */
+        align-items: center; /* Centre verticalement */
+        margin: 20px 0; /* Espace au-dessus et au-dessous du bouton */
+    }
+
+    /* Style du bouton */
+    .btn-nouvelle-Proposition {
+        background-color: #FFCAD4;
+        color: #1D3557;
+        border: none;
+        padding: 20px 47px;
+        margin-top: 50px;
+        border-radius: 20px;
+        font-size: 40px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .btn-nouvelle-Proposition:hover {
+        background-color: #F78FB3; /* Couleur au survol */
+        color: white; /* Texte blanc au survol */
+        transform: scale(1.1); /* Zoom au survol */
+    }
+
+
+
+    .cardg:hover .text {
+        transition: all 0.3s ease;
+        opacity: 1;
+        max-height: 40px;
+    }
+
+    .cardg:hover .icon {
+        background-position: -30px;
+        transition: all 0.3s ease;
+        border: #d33dad solid 0.2px;
+    }
+
+    .card #title {
+        width: 100%;
+        margin: 0;
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    .card #text {
+        width: 80%;
+        margin: 30px;
+        font-size: 13px;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 200;
+        letter-spacing: 2px;
+        opacity: 0;
+        max-height: 0;
+        transition: all 0.3s ease;
+    }
+
+
+    .icon {
+        margin: 30px;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 160px;
+        max-width: 160px;
+        background: linear-gradient(130deg, #f4b3ca 10%, #F78FB3 30%, rgba(156, 149, 149, 0.29) 60%);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        transition: all 0.8s ease;
+        background-position: 0px;
+        background-size: 200px;
+    }
+
+    .cardg:hover .icon i {
+        background: black;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+
+
+    .btn {
+        display: inline-block;
+        padding: 10px 15px;
+        color: white;
+        background-color: #6200ea;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .btn:hover {
+        background-color: #3700b3;
+    }
+    .material-icons{
+        font-size: 2.2em;
+    }
+
+    .material-icons.md-18 {
+        font-size: 18px;
+    }
+
+    .material-icons.md-24 {
+        font-size: 24px;
+    }
+
+    .material-icons.md-36 {
+        font-size: 36px;
+    }
+
+    .material-icons.md-48 {
+        font-size: 48px;
+    }
+
+    .card .title {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    .card .text {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 13px;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 200;
+        letter-spacing: 2px;
+        opacity: 0;
+        max-height: 0;
+        transition: all 0.3s ease;
+    }
+
+    .card:hover {
+        height: 350px;
+    }
+
+    .card:hover .info {
+        height: 90%;
+    }
+
+    .card:hover .text {
+        transition: all 0.3s ease;
+        opacity: 1;
+        max-height: 40px;
+    }
+
+    .card:hover .icon {
+        background-position: -120px;
+        transition: all 0.3s ease;
+    }
+
+    .card:hover .icon i {
+        background: linear-gradient(90deg, #f4b3ca, #F78FB3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 1;
+        transition: all 0.3s ease;
+        height: auto;
+        width: auto;
+    }

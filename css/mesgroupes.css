@@ -1,0 +1,247 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.group-image {
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: 100px;
+    border-radius: 50%; /* Rond comme une icône */
+    object-fit: cover; /* Ajuste l'image sans la déformer */
+    margin: 10px auto; /* Centre l'image verticalement et horizontalement */
+    display: block; /* Nécessaire pour appliquer `margin` */
+}
+/* Style général */
+.group-image {
+    width: 120px; /* Taille de l'image */
+    height: 120px;
+    border-radius: 50%; /* Image ronde */
+    object-fit: cover; /* Ne pas déformer l'image */
+    margin: 20px auto; /* Centrer */
+    display: block;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajout d'une ombre pour un effet esthétique */
+    border: 3px solid #f4b3ca; /* Bordure autour de l'image */
+}
+
+/* Style spécifique pour les descriptions */
+.cardg p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Couleur de fond dynamique */
+.cardg strong {
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--couleur); /* Couleur dynamique */
+}
+
+/* Animation au survol */
+.cardg:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+/* En-tête */
+header {
+    background-color: #f4b3ca;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grille des groupes */
+.groups-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 30px;
+    padding-bottom: 150px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre le contenu horizontalement */
+    position: relative; /* Nécessaire pour positionner la flèche */
+    padding: 20px;
+    background-color: #F78FB3; /* Couleur rose comme dans l'exemple */
+}
+
+/* Titre centré */
+.header-title {
+    font-size: 2em;
+    color: white; /* Couleur du texte */
+    margin: 0;
+}
+
+/* Flèche de retour */
+.back-arrow {
+    position: absolute;
+    left: 30px; /* Place la flèche à gauche dans le header */
+    font-size: 36px; /* Taille de l'icône */
+    color: whitesmoke; /* Couleur rouge */
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.back-arrow:hover {
+    transform: scale(1.2); /* Zoom au survol */
+    color: white; /* Couleur au survol */
+}
+#police-lien{
+    text-decoration: none;
+    color: #0dcaf0;
+    font-family: "Poppins", sans-serif;
+}
+/* Carte de groupe */
+.cardg {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    min-width: 350px;
+    height: 530px;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 50px;
+    border-radius: 75px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.cardg:hover {
+    height: 600px;
+}
+
+/* Conteneur pour centrer le bouton */
+.btn-container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    margin: 20px 0; /* Espace au-dessus et au-dessous du bouton */
+}
+
+/* Style du bouton */
+.btn-nouveau-groupe {
+    background-color: #FFCAD4;
+    color: #1D3557;
+    border: none;
+    padding: 20px 47px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-nouveau-groupe:hover {
+    background-color: #F78FB3; /* Couleur au survol */
+    color: white; /* Texte blanc au survol */
+    transform: scale(1.1); /* Zoom au survol */
+}
+
+
+
+.cardg:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+}
+
+.cardg:hover .icon {
+    background-position: -30px;
+    transition: all 0.3s ease;
+    border: #d33dad solid 0.2px;
+}
+
+.card #title {
+    width: 100%;
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.card #text {
+    width: 80%;
+    margin: 30px;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+}
+
+
+.icon {
+    margin: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 160px;
+    max-width: 160px;
+    background: linear-gradient(130deg, #f4b3ca 10%, #F78FB3 30%, rgba(156, 149, 149, 0.29) 60%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;
+}
+
+.cardg:hover .icon i {
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    background-color: #6200ea;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #3700b3;
+}
+.material-icons{
+    font-size: 2.2em;
+}

@@ -1,0 +1,27 @@
+Response for propositions/23: {"status":"success","proposition":{"id_proposition":23,"id_groupe":34,"id_createur":69,"titre":"ya rien de mech mech","description":"mech mech","date_proposition":"2025-01-07","etat":"ouverte","duree":10,"numero_tour":1,"budget":"80.00"}}
+Response for votes/hasVoted/69/23: 
+Response for votes: <br />
+<b>Warning</b>:  Undefined array key "user_id" in <b>/home/nboulad/public_html/VOTFY/api/routes/VoteRoutes.php</b> on line <b>9</b><br />
+<br />
+<b>Warning</b>:  file_put_contents(/home/nboulad/public_html/VOTFY/api/controller/logs/error.log): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/VoteController.php</b> on line <b>25</b><br />
+{"status":"error","message":"SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_utilisateur' cannot be null"}
+JSON Error: Syntax error
+Response for votes/statistics/23: 
+Response for propositions/23: {"status":"success","proposition":{"id_proposition":23,"id_groupe":34,"id_createur":69,"titre":"ya rien de mech mech","description":"mech mech","date_proposition":"2025-01-07","etat":"ouverte","duree":10,"numero_tour":1,"budget":"80.00"}}
+Response for votes/hasVoted/69/23: 
+Response for votes: <br />
+<b>Warning</b>:  file_put_contents(/home/nboulad/public_html/VOTFY/api/controller/logs/debug.log): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/VoteController.php</b> on line <b>21</b><br />
+{"status":"success","message":"Vote enregistr\u00e9 avec succ\u00e8s"}
+JSON Error: Syntax error
+Response for votes/statistics/23: 
+Response for propositions/23: {"status":"success","proposition":{"id_proposition":23,"id_groupe":34,"id_createur":69,"titre":"ya rien de mech mech","description":"mech mech","date_proposition":"2025-01-07","etat":"ouverte","duree":10,"numero_tour":1,"budget":"80.00"}}
+Response for votes/hasVoted/69/23: 
+Response for votes: <br />
+<b>Warning</b>:  file_put_contents(/home/nboulad/public_html/VOTFY/api/controller/logs/debug.log): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/VoteController.php</b> on line <b>21</b><br />
+{"status":"success","message":"Vote enregistr\u00e9 avec succ\u00e8s"}
+JSON Error: Syntax error
+Response for votes/statistics/23: 
+Response for propositions/23: <br />
+<b>Parse error</b>:  syntax error, unexpected identifier &quot;getVoteStatistics&quot;, expecting &quot;(&quot; in <b>/home/nboulad/public_html/VOTFY/api/controller/VoteController.php</b> on line <b>47</b><br />
+
+JSON Error: Syntax error

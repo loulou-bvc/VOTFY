@@ -1,0 +1,18 @@
+# Définir le fichier par défaut
+DirectoryIndex index.php
+
+# Activer le moteur de réécriture
+RewriteEngine On
+
+# Définir la base pour les règles de réécriture
+RewriteBase /~nboulad/VOTFY/api/
+
+# Ne pas réécrire si le fichier ou le dossier existe
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rediriger toutes les autres requêtes vers index.php
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Gérer les erreurs
+ErrorDocument 404 /saes3-nboulad/VOTIFY/api/index.php

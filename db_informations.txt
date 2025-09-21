@@ -1,0 +1,6 @@
+Accès à SFTP :
+ - FQDN : webdev.iut-orsay.fr
+ - Port : 6022 (TCP)
+ - Authentification 
+ * Identifiant : llebivi 
+* Mot de passe : csGSFqFc_r6Fsi)K 

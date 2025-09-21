@@ -1,0 +1,232 @@
+
+
+.action-button1{
+    display: flex;
+}
+.header-container {
+    background-color: #f4b3ca;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    margin: 0;
+    font-size: 2em;
+}
+
+.info-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px 20px 70px 20px;
+    text-align: left;
+    max-width: 700px;
+    width: 90%;
+}
+
+.info-container h2 {
+    text-align: center;
+    color: #1D3557;
+    margin-bottom: 70px;
+    font-size: 2.6em;
+    font-weight: 700;
+}
+
+.user-info {
+    list-style: none;
+    padding: 0;
+}
+
+.user-info li {
+    margin: 75px 0;
+    font-size: 1.6em;
+    color: #333;
+}
+
+.user-info li strong {
+    color: #1D3557;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: 40px;
+}
+
+.action-buttons button {
+    background-color: #fdafc9;
+    color: white;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    max-width: 500px;
+    font-weight: 650;
+}
+
+.action-buttons button:hover {
+    background-color: #f55688;
+    transform: scale(1.05);
+}
+#btn-delete{
+    font-size: 0.8em;
+    padding: 10px;
+    font-weight: 500;
+    background: #000000a8;
+    margin-top: 70px;
+}
+.btn-delete {
+    background-color: #e74c3c;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
+
+#btn-logout{
+    background: rgba(255,24,24,0.85);margin-top: 30px; font-size: 1.8em;
+}
+
+
+
+.btn-logout {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    background: rgba(255,24,24,0.85);
+    margin-top: 30px;
+    font-size: 1.8em;
+}
+
+.btn-logout:hover {
+    background-color: #7f8c8d;
+}
+
+
+body {
+    font-family: "Lato", sans-serif; /* Police principale */
+    background-color: #f9f9f9; /* Couleur de fond neutre */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Couleur principale du texte */
+}
+
+/* En-tête */
+.header {
+    background-color: #F78FB3; /* Rose pastel */
+    color: white; /* Couleur du texte */
+    text-align: center;
+    padding: 20px;
+    font-size: 2em; /* Taille du titre */
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre le contenu horizontalement */
+    position: relative; /* Nécessaire pour positionner la flèche */
+    padding: 20px;
+    background-color: #F78FB3; /* Couleur rose comme dans l'exemple */
+}
+
+/* Titre centré */
+.header-title {
+    font-size: 2em;
+    color: white; /* Couleur du texte */
+    margin: 0;
+}
+
+/* Flèche de retour */
+.back-arrow {
+    position: absolute;
+    left: 30px; /* Place la flèche à gauche dans le header */
+    font-size: 36px; /* Taille de l'icône */
+    color: whitesmoke; /* Couleur rouge */
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.back-arrow:hover {
+    transform: scale(1.2); /* Zoom au survol */
+    color: white; /* Couleur au survol */
+}
+/* Contenu principal */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 800px; /* Largeur maximale pour le contenu */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+/* Bouton de déconnexion */
+button.red {
+    font-family: "Lato", sans-serif;
+    background-color: #FF6B6B; /* Rouge doux */
+    color: white; /* Texte blanc */
+    padding: 10px 20px;
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition douce */
+}
+.btn-supp{
+    font-size: 0.8em;
+    padding: 10px;
+    font-weight: 500;
+    background: #000000a8;
+    margin-top: 70px;
+}
+button.red:hover {
+    background-color: #E63946; /* Rouge plus foncé */
+}
+
+/* Bouton en mode lien (pour style inline) */
+button.red[style] {
+    text-decoration: underline; /* Souligne pour donner l'effet de lien */
+    background-color: transparent; /* Fond transparent */
+    color: #FF6B6B; /* Rouge pour le texte */
+}
+
+button.red[style]:hover {
+    color: #E63946; /* Rouge plus foncé */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        font-size: 1.5em; /* Taille du texte réduite sur les petits écrans */
+        padding: 15px;
+    }
+
+    .content {
+        margin: 30px auto;
+        padding: 15px;
+    }
+
+    button.red {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}

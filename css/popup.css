@@ -1,0 +1,72 @@
+/* Conteneur du pop-up (caché par défaut) */
+/* Conteneur du pop-up (caché par défaut) */
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    display: none; /* Caché par défaut */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Toujours au-dessus */
+}
+
+/* Contenu du pop-up */
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Texte du message */
+#popup-message {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    color: #333;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+/* Bouton dans le pop-up */
+.popup-content button {
+    background-color: #F78FB3; /* Jaune doré */
+    color: white;
+    border: none;
+    width: 40%;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.popup-content button:hover {
+    background-color: #f84282; /* Jaune plus foncé */
+}
+
+.resend-email{
+    border: none;
+    background: none;
+    color: #00001c;
+}
+
+.gpopup-close {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+    color: #f84282; /* Couleur de la croix */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.gpopup-close:hover {
+    color: #F78FB3; /* Couleur au survol */
+}

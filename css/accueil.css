@@ -1,0 +1,314 @@
+/* Conteneur global */
+
+
+
+section.pt-5.pb-5 {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.20);
+
+    margin: 40px 5px;
+}
+
+.body-container {
+    padding: 20px;
+}
+#info-cercle{
+    font-size: 7em;
+    color: #f82da1;
+}
+/* Logo et titre */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+}
+
+#bienvenue{
+    font-size: 3.3em;
+    color: #1D3557;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+/* Bouton flottant */
+.action-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FFCAD4;
+    color: #1D3557;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #F78FB3;
+}
+
+/* Section des groupes */
+.group-section h2 {
+    color: #1D3557;
+    margin-bottom: 50px;
+}
+
+.group-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.group-card {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: calc(33.33% - 20px); /* Trois cartes par ligne */
+    text-align: center;
+    height: 300px;
+}
+
+.group-card h3 {
+    font-size: 18px;
+    color: #1D3557;
+    margin-bottom: 5px;
+}
+
+.nav-link h3{
+    font-size: 2.2em;
+}
+
+.group-card p {
+    font-size: 14px;
+    color: #6C757D;
+    margin-bottom: 10px;
+}
+
+.group-card .group-link {
+    color: #457B9D;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.group-card .group-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    .group-card {
+        width: calc(50% - 20px); /* Deux cartes par ligne */
+    }
+}
+
+@media (max-width: 480px) {
+    .group-card {
+        width: 100%; /* Une seule carte par ligne */
+    }
+
+    .action-button {
+        bottom: 15px;
+        right: 15px;
+    }
+}
+.carousel-control-prev, .carousel-control-next {
+    top: 50%; /* Place les flèches au milieu verticalement */
+    transform: translateY(-50%); /* Centre parfaitement */
+    width: auto; /* Ajuste la largeur automatiquement */
+    z-index: 10; /* Garde les flèches au-dessus du contenu */
+}
+.carousel-control-prev {
+    left: -3%; /* Ajuste l'écart à gauche */
+}
+
+.carousel-control-next {
+    right: -3%; /* Ajuste l'écart à droite */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur semi-transparente */
+    border-radius: 50%; /* Rendre les flèches circulaires */
+    padding: 10px; /* Ajouter de l'espace autour des icônes */
+
+}
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.8); /* Changer la couleur au survol */
+}
+.carousel .btn-primary {
+    background-color: #1D3557;
+    border: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.carousel .btn-primary:hover {
+    background-color: #457B9D;
+}
+.card-text{
+    margin-bottom: 4rem;
+}
+.card {
+    width: 100%;
+    max-width: 260px;
+    min-width: 190px;
+    height: 250px;
+    background-color: #292929;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 75px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.gbtn-container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    margin: 20px 0; /* Espace au-dessus et au-dessous du bouton */
+}
+
+/* Style du bouton */
+.gbtn-nouveau-groupe{
+    background-color: #FFCAD4;
+    color: #1D3557;
+    border: none;
+    padding: 20px 47px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.gbtn-nouveau-groupe:hover {
+    background-color: #F78FB3; /* Couleur au survol */
+    color: white; /* Texte blanc au survol */
+    transform: scale(1.1); /* Zoom au survol */
+}
+
+.icon {
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    max-width: 80px;
+    background: linear-gradient(90deg, #f4b3ca 0%, #F78FB3 40%, rgba(0, 0, 0, 0.28) 60%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.card .title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.card .text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    height: 450px;
+}
+
+.card:hover .info {
+    height: 90%;
+}
+
+.card:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+}
+
+.card:hover .icon {
+    background-position: -120px;
+    transition: all 0.3s ease;
+}
+
+.card:hover .icon i {
+    background: linear-gradient(90deg, #f4b3ca, #F78FB3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    transition: all 0.3s ease;
+    height: auto;
+    width: auto;
+}
+
+.mb-3{
+    padding-bottom: 50px;
+}

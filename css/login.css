@@ -1,0 +1,170 @@
+/* Style général pour le corps */
+body {
+    font-family: "Lato", sans-serif; /* Police principale */
+    background-color: #FFE3E3; /* Couleur de fond rose */
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Hauteur pleine pour centrer le contenu */
+}
+/* Conteneur principal */
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 20px; /* Espace en haut pour éviter que le logo touche le bord */
+    box-sizing: border-box;
+}
+
+/* Logo */
+.logo {
+    max-width: 200px; /* Taille maximale du logo */
+    margin-bottom: 20px; /* Espacement avec le formulaire */
+}
+
+
+/* Conteneur principal de la page de connexion */
+.login-container {
+    background-color: white; /* Fond blanc pour contraster */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    padding: 0px;
+    padding-bottom: 40px;
+    width: 95%;
+    max-width: 530px;
+    text-align: center;
+}
+
+/* Style du logo */
+.logo {
+    max-width: 230px; /* Taille du logo */
+    margin-bottom: 0px; /* Espacement avec le titre */
+}
+
+/* Style du titre */
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #001223; /* Bleu foncé */
+    margin: 40px; /* Espacement sous le titre */
+}
+
+/* Style des étiquettes */
+label {
+    display: block;
+    text-align: center; /* Aligné au centre */
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Style des champs d'entrée */
+input {
+    width: 80%; /* Largeur totale */
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 14px;
+}
+
+/* Case à cocher */
+.checkbox-container {
+    display: flex;
+    align-items: center; /* Aligne verticalement */
+    justify-content: center; /* Aligne horizontalement à gauche */
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin: 10px;
+    transform: scale(1.1);
+    width: 10px;
+}
+
+#remember-me-text{
+    margin-bottom: 0;
+}
+
+/* Boutons */
+button {
+    max-width: 80%;
+    font-family: "Lato", sans-serif;
+    background-color: #8dc8e3; /* Bleu pastel */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition pour le survol */
+}
+
+/* Effet au survol des boutons */
+button:hover {
+    background-color: #457B9D; /* Bleu foncé */
+}
+
+/* Messages d'erreur */
+.error {
+    color: red;
+    background-color: #FFE3E3; /* Fond rose clair */
+    border: 1px solid #FFB3B3;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Liens */
+.register-link, .forgot-link {
+    margin-top: 15px;
+    display: block;
+    color: #8dc8e3;
+    font-size: 14px;
+}
+
+.register-link a, .forgot-link a {
+    color: #8dc8e3; /* Bleu foncé */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover, .forgot-link a:hover {
+    text-decoration: underline;
+    color: #457B9D; /* Bleu foncé */
+}
+
+.forgot-link {
+    margin-top: 40px;
+}
+
+/* Champ supplémentaire pour confirmer le mot de passe */
+input[type="password"],
+input[type="email"],
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+img.logo:hover{
+    transform:scale(1.12);
+}

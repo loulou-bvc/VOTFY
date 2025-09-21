@@ -1,0 +1,387 @@
+Données envoyées : {"email":"l@l.l","mot_de_passe":"l"}
+Contexte HTTP : Array
+(
+    [http] => Array
+        (
+            [header] => Content-type: application/json
+
+            [method] => POST
+            [content] => {"email":"l@l.l","mot_de_passe":"l"}
+        )
+
+)
+
+Erreur API : Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/utilisateurs/login): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+    [file] => /home/nboulad/public_html/VOTFY/views/login.php
+    [line] => 58
+)
+
+Données envoyées : {"email":"l@l.l","mot_de_passe":"l"}
+Contexte HTTP : Array
+(
+    [http] => Array
+        (
+            [header] => Content-type: application/json
+
+            [method] => POST
+            [content] => {"email":"l@l.l","mot_de_passe":"l"}
+        )
+
+)
+
+Erreur API : Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://webdev.iut-orsay.fr/~nboulad/VOTFY/api/utilisateurs/login): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+    [file] => /home/nboulad/public_html/VOTFY/views/login.php
+    [line] => 58
+)
+
+Données envoyées : {"email":"l@l.l","mot_de_passe":"l"}
+Réponse brute API : {"message":"Route non valide"}
+Réponse API : {"message":"Route non valide"}
+Réponse API brute : {"message":"Route non valide"}
+Réponse brute de l'API : {"message":"Route non valide"}
+Réponse API brute : {"message":"Route non valide"}
+Réponse brute de l'API : <br />
+<b>Fatal error</b>:  Uncaught ArgumentCountError: Too few arguments to function handleUserLogin(), 0 passed in /home/nboulad/public_html/VOTFY/api/index.php on line 67 and exactly 2 expected in /home/nboulad/public_html/VOTFY/api/routes/UtilisateurRoutes.php:57
+Stack trace:
+#0 /home/nboulad/public_html/VOTFY/api/index.php(67): handleUserLogin()
+#1 {main}
+  thrown in <b>/home/nboulad/public_html/VOTFY/api/routes/UtilisateurRoutes.php</b> on line <b>57</b><br />
+
+Réponse API brute : <br />
+<b>Fatal error</b>:  Uncaught ArgumentCountError: Too few arguments to function handleUserLogin(), 0 passed in /home/nboulad/public_html/VOTFY/api/index.php on line 67 and exactly 2 expected in /home/nboulad/public_html/VOTFY/api/routes/UtilisateurRoutes.php:57
+Stack trace:
+#0 /home/nboulad/public_html/VOTFY/api/index.php(67): handleUserLogin()
+#1 {main}
+  thrown in <b>/home/nboulad/public_html/VOTFY/api/routes/UtilisateurRoutes.php</b> on line <b>57</b><br />
+
+Erreur JSON : Syntax error
+Réponse brute de l'API : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : {"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse API brute : {"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse brute de l'API : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":64,"prenom":"Aymane","email_verified":1}}
+Réponse API brute : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":64,"prenom":"Aymane","email_verified":1}}
+Réponse brute de l'API : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":54,"prenom":"bibi","email_verified":1}}
+Réponse API brute : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":54,"prenom":"bibi","email_verified":1}}
+Réponse brute de l'API : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":54,"prenom":"bibi","email_verified":1}}
+Réponse API brute : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":54,"prenom":"bibi","email_verified":1}}
+Réponse brute de l'API : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":66,"prenom":"Lou","email_verified":1}}
+Réponse API brute : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":66,"prenom":"Lou","email_verified":1}}
+Réponse brute de l'API : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":54,"prenom":"bibi","email_verified":1}}
+Réponse API brute : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":54,"prenom":"bibi","email_verified":1}}
+Réponse brute de l'API : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse API brute : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse brute de l'API : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse API brute : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse brute de l'API : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":66,"prenom":"Lou","email_verified":1}}
+Réponse API brute : {"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":66,"prenom":"Lou","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse API brute : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":70,"prenom":"ratovo","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":70,"prenom":"ratovo","email_verified":1}}
+Réponse brute de l'API : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse API brute : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":53,"prenom":"Loup","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":53,"prenom":"Loup","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse brute de l'API : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse API brute : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":16,"prenom":"Bouladjeraf","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":16,"prenom":"Bouladjeraf","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse brute de l'API : 
+<br />
+<b>Warning</b>:  require_once(/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required '/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php' (include_path='.:/usr/share/php') in /home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php:3
+Stack trace:
+#0 /home/nboulad/public_html/VOTFY/api/index.php(12): require_once()
+#1 {main}
+  thrown in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+
+Réponse API brute : 
+<br />
+<b>Warning</b>:  require_once(/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required '/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php' (include_path='.:/usr/share/php') in /home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php:3
+Stack trace:
+#0 /home/nboulad/public_html/VOTFY/api/index.php(12): require_once()
+#1 {main}
+  thrown in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+
+Erreur JSON : Syntax error
+Réponse brute de l'API : 
+<br />
+<b>Warning</b>:  require_once(/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required '/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php' (include_path='.:/usr/share/php') in /home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php:3
+Stack trace:
+#0 /home/nboulad/public_html/VOTFY/api/index.php(12): require_once()
+#1 {main}
+  thrown in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+
+Réponse API brute : 
+<br />
+<b>Warning</b>:  require_once(/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required '/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php' (include_path='.:/usr/share/php') in /home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php:3
+Stack trace:
+#0 /home/nboulad/public_html/VOTFY/api/index.php(12): require_once()
+#1 {main}
+  thrown in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+
+Erreur JSON : Syntax error
+Réponse brute de l'API : 
+<br />
+<b>Warning</b>:  require_once(/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required '/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php' (include_path='.:/usr/share/php') in /home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php:3
+Stack trace:
+#0 /home/nboulad/public_html/VOTFY/api/index.php(12): require_once()
+#1 {main}
+  thrown in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+
+Réponse API brute : 
+<br />
+<b>Warning</b>:  require_once(/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required '/home/nboulad/public_html/VOTFY/api/routes../controller/MailController.php' (include_path='.:/usr/share/php') in /home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php:3
+Stack trace:
+#0 /home/nboulad/public_html/VOTFY/api/index.php(12): require_once()
+#1 {main}
+  thrown in <b>/home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php</b> on line <b>3</b><br />
+
+Erreur JSON : Syntax error
+Réponse brute de l'API : 
+<br />
+<b>Warning</b>:  require_once(/home/nboulad/public_html/VOTFY/api/controller../Connexion.php): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/MailController.php</b> on line <b>3</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required '/home/nboulad/public_html/VOTFY/api/controller../Connexion.php' (include_path='.:/usr/share/php') in /home/nboulad/public_html/VOTFY/api/controller/MailController.php:3
+Stack trace:
+#0 /home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php(3): require_once()
+#1 /home/nboulad/public_html/VOTFY/api/index.php(12): require_once('...')
+#2 {main}
+  thrown in <b>/home/nboulad/public_html/VOTFY/api/controller/MailController.php</b> on line <b>3</b><br />
+
+Réponse API brute : 
+<br />
+<b>Warning</b>:  require_once(/home/nboulad/public_html/VOTFY/api/controller../Connexion.php): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/MailController.php</b> on line <b>3</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Failed opening required '/home/nboulad/public_html/VOTFY/api/controller../Connexion.php' (include_path='.:/usr/share/php') in /home/nboulad/public_html/VOTFY/api/controller/MailController.php:3
+Stack trace:
+#0 /home/nboulad/public_html/VOTFY/api/routes/MailRoutes.php(3): require_once()
+#1 /home/nboulad/public_html/VOTFY/api/index.php(12): require_once('...')
+#2 {main}
+  thrown in <b>/home/nboulad/public_html/VOTFY/api/controller/MailController.php</b> on line <b>3</b><br />
+
+Erreur JSON : Syntax error
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":70,"prenom":"ratovo","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":70,"prenom":"ratovo","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"BouBou","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":71,"prenom":"ratovo","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":71,"prenom":"ratovo","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"Bouladjeraf ","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"Bouladjeraf ","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":71,"prenom":"ratovo","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":71,"prenom":"ratovo","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"Bouladjeraf ","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"Bouladjeraf ","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse API brute : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse brute de l'API : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse API brute : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"Bouladjeraf ","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":69,"prenom":"Bouladjeraf ","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":71,"prenom":"ratovo","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":71,"prenom":"ratovo","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":14,"prenom":"l","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":72,"prenom":"Hai","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":72,"prenom":"Hai","email_verified":1}}
+Réponse brute de l'API : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse API brute : 
+{"success":false,"status":"error","message":"Email ou mot de passe incorrect","user":null}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":16,"prenom":"Bouladjeraf","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":16,"prenom":"Bouladjeraf","email_verified":1}}
+Réponse brute de l'API : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":15,"prenom":"a","email_verified":1}}
+Réponse API brute : 
+{"success":true,"status":"success","message":"Connexion r\u00e9ussie","user":{"id_utilisateur":15,"prenom":"a","email_verified":1}}

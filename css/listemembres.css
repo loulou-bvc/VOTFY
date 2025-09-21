@@ -1,0 +1,40 @@
+.dropdown-toggle::after {
+    display: none;
+}
+.dropdown-toggle {
+    text-decoration: none;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre le contenu horizontalement */
+    position: relative; /* Nécessaire pour positionner la flèche */
+    padding: 50px;
+    flex-direction: column;
+    background-color: #F78FB3; /* Couleur rose comme dans l'exemple */
+}
+.header-container2{
+    padding-top: 20px;
+}
+
+/* Titre centré */
+.header-title {
+    color: white; /* Couleur du texte */
+    margin: 0;
+}
+
+/* Flèche de retour */
+.back-arrow {
+    position: absolute;
+    left: 30px; /* Place la flèche à gauche dans le header */
+    font-size: 36px; /* Taille de l'icône */
+    color: whitesmoke; /* Couleur rouge */
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.back-arrow:hover {
+    transform: scale(1.2); /* Zoom au survol */
+    color: white; /* Couleur au survol */
+}

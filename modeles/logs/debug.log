@@ -1,0 +1,315 @@
+Démarrage de la session
+Notifications brutes : Array
+(
+    [0] => Array
+        (
+            [id_notification] => 9
+            [id_utilisateur] => 16
+            [message] => ffffffssssssscgg yougataga
+            [redirectionPage] => accueil.php
+            [date_notification] => 2025-01-02 01:37:32
+            [lue] => 1
+        )
+
+    [1] => Array
+        (
+            [id_notification] => 8
+            [id_utilisateur] => 16
+            [message] => Clamart zoo
+            [redirectionPage] => mesgroupes.php
+            [date_notification] => 2025-01-02 01:21:07
+            [lue] => 1
+        )
+
+    [2] => Array
+        (
+            [id_notification] => 7
+            [id_utilisateur] => 16
+            [message] => l
+            [redirectionPage] => 
+            [date_notification] => 2025-01-02 00:18:52
+            [lue] => 1
+        )
+
+    [3] => Array
+        (
+            [id_notification] => 4
+            [id_utilisateur] => 16
+            [message] => la rue la vrai mgl
+            [redirectionPage] => 
+            [date_notification] => 2025-01-01 23:05:18
+            [lue] => 1
+        )
+
+)
+
+Démarrage de la session
+Notifications brutes : Array
+(
+    [0] => Array
+        (
+            [id_notification] => 9
+            [id_utilisateur] => 16
+            [message] => ffffffssssssscgg yougataga
+            [redirectionPage] => accueil.php
+            [date_notification] => 2025-01-02 01:37:32
+            [lue] => 1
+        )
+
+    [1] => Array
+        (
+            [id_notification] => 8
+            [id_utilisateur] => 16
+            [message] => Clamart zoo
+            [redirectionPage] => mesgroupes.php
+            [date_notification] => 2025-01-02 01:21:07
+            [lue] => 1
+        )
+
+    [2] => Array
+        (
+            [id_notification] => 7
+            [id_utilisateur] => 16
+            [message] => l
+            [redirectionPage] => 
+            [date_notification] => 2025-01-02 00:18:52
+            [lue] => 1
+        )
+
+    [3] => Array
+        (
+            [id_notification] => 4
+            [id_utilisateur] => 16
+            [message] => la rue la vrai mgl
+            [redirectionPage] => 
+            [date_notification] => 2025-01-01 23:05:18
+            [lue] => 1
+        )
+
+)
+
+Démarrage de la session
+Notifications brutes : Array
+(
+    [0] => Array
+        (
+            [id_notification] => 9
+            [id_utilisateur] => 16
+            [message] => ffffffssssssscgg yougataga
+            [redirectionPage] => accueil.php
+            [date_notification] => 2025-01-02 01:37:32
+            [lue] => 1
+        )
+
+    [1] => Array
+        (
+            [id_notification] => 8
+            [id_utilisateur] => 16
+            [message] => Clamart zoo
+            [redirectionPage] => mesgroupes.php
+            [date_notification] => 2025-01-02 01:21:07
+            [lue] => 1
+        )
+
+    [2] => Array
+        (
+            [id_notification] => 7
+            [id_utilisateur] => 16
+            [message] => l
+            [redirectionPage] => 
+            [date_notification] => 2025-01-02 00:18:52
+            [lue] => 1
+        )
+
+    [3] => Array
+        (
+            [id_notification] => 4
+            [id_utilisateur] => 16
+            [message] => la rue la vrai mgl
+            [redirectionPage] => 
+            [date_notification] => 2025-01-01 23:05:18
+            [lue] => 1
+        )
+
+)
+
+Démarrage de la session
+Notifications brutes : Array
+(
+    [0] => Array
+        (
+            [id_notification] => 9
+            [id_utilisateur] => 16
+            [message] => ffffffssssssscgg yougataga
+            [redirectionPage] => accueil.php
+            [date_notification] => 2025-01-02 01:37:32
+            [lue] => 1
+        )
+
+    [1] => Array
+        (
+            [id_notification] => 8
+            [id_utilisateur] => 16
+            [message] => Clamart zoo
+            [redirectionPage] => mesgroupes.php
+            [date_notification] => 2025-01-02 01:21:07
+            [lue] => 1
+        )
+
+    [2] => Array
+        (
+            [id_notification] => 7
+            [id_utilisateur] => 16
+            [message] => l
+            [redirectionPage] => 
+            [date_notification] => 2025-01-02 00:18:52
+            [lue] => 1
+        )
+
+    [3] => Array
+        (
+            [id_notification] => 4
+            [id_utilisateur] => 16
+            [message] => la rue la vrai mgl
+            [redirectionPage] => 
+            [date_notification] => 2025-01-01 23:05:18
+            [lue] => 1
+        )
+
+)
+
+Démarrage de la session
+Notifications brutes : Array
+(
+    [0] => Array
+        (
+            [id_notification] => 9
+            [id_utilisateur] => 16
+            [message] => ffffffssssssscgg yougataga
+            [redirectionPage] => accueil.php
+            [date_notification] => 2025-01-02 01:37:32
+            [lue] => 1
+        )
+
+    [1] => Array
+        (
+            [id_notification] => 8
+            [id_utilisateur] => 16
+            [message] => Clamart zoo
+            [redirectionPage] => mesgroupes.php
+            [date_notification] => 2025-01-02 01:21:07
+            [lue] => 1
+        )
+
+    [2] => Array
+        (
+            [id_notification] => 7
+            [id_utilisateur] => 16
+            [message] => l
+            [redirectionPage] => 
+            [date_notification] => 2025-01-02 00:18:52
+            [lue] => 1
+        )
+
+    [3] => Array
+        (
+            [id_notification] => 4
+            [id_utilisateur] => 16
+            [message] => la rue la vrai mgl
+            [redirectionPage] => 
+            [date_notification] => 2025-01-01 23:05:18
+            [lue] => 1
+        )
+
+)
+
+Démarrage de la session
+Notifications brutes : Array
+(
+    [0] => Array
+        (
+            [id_notification] => 9
+            [id_utilisateur] => 16
+            [message] => ffffffssssssscgg yougataga
+            [redirectionPage] => accueil.php
+            [date_notification] => 2025-01-02 01:37:32
+            [lue] => 1
+        )
+
+    [1] => Array
+        (
+            [id_notification] => 8
+            [id_utilisateur] => 16
+            [message] => Clamart zoo
+            [redirectionPage] => mesgroupes.php
+            [date_notification] => 2025-01-02 01:21:07
+            [lue] => 1
+        )
+
+    [2] => Array
+        (
+            [id_notification] => 7
+            [id_utilisateur] => 16
+            [message] => l
+            [redirectionPage] => 
+            [date_notification] => 2025-01-02 00:18:52
+            [lue] => 1
+        )
+
+    [3] => Array
+        (
+            [id_notification] => 4
+            [id_utilisateur] => 16
+            [message] => la rue la vrai mgl
+            [redirectionPage] => 
+            [date_notification] => 2025-01-01 23:05:18
+            [lue] => 1
+        )
+
+)
+
+Démarrage de la session
+Notifications brutes : Array
+(
+    [0] => Array
+        (
+            [id_notification] => 9
+            [id_utilisateur] => 16
+            [message] => ffffffssssssscgg yougataga
+            [redirectionPage] => accueil.php
+            [date_notification] => 2025-01-02 01:37:32
+            [lue] => 1
+        )
+
+    [1] => Array
+        (
+            [id_notification] => 8
+            [id_utilisateur] => 16
+            [message] => Clamart zoo
+            [redirectionPage] => mesgroupes.php
+            [date_notification] => 2025-01-02 01:21:07
+            [lue] => 1
+        )
+
+    [2] => Array
+        (
+            [id_notification] => 7
+            [id_utilisateur] => 16
+            [message] => l
+            [redirectionPage] => 
+            [date_notification] => 2025-01-02 00:18:52
+            [lue] => 1
+        )
+
+    [3] => Array
+        (
+            [id_notification] => 4
+            [id_utilisateur] => 16
+            [message] => la rue la vrai mgl
+            [redirectionPage] => 
+            [date_notification] => 2025-01-01 23:05:18
+            [lue] => 1
+        )
+
+)
+

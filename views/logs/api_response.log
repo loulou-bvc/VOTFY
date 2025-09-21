@@ -1,0 +1,51 @@
+<br />
+<b>Warning</b>:  file_put_contents(/home/nboulad/public_html/VOTFY/api/controller/../logs/debug.log): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/GroupeController.php</b> on line <b>168</b><br />
+{"status":"error","message":"Erreur lors de la cr\u00e9ation du groupe : SQLSTATE[HY000]: General error: 1364 Field 'created_at' doesn't have a default value"}<br />
+<b>Warning</b>:  file_put_contents(/home/nboulad/public_html/VOTFY/api/controller/../logs/debug.log): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/GroupeController.php</b> on line <b>162</b><br />
+{"status":"error","message":"\u00c9chec de la cr\u00e9ation du groupe"}<br />
+<b>Warning</b>:  file_put_contents(/home/nboulad/public_html/VOTFY/api/controller/../logs/debug.log): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/GroupeController.php</b> on line <b>168</b><br />
+{"status":"error","message":"Erreur lors de la cr\u00e9ation du groupe : SQLSTATE[42000]: Syntax error or access violation: 1318 Incorrect number of arguments for PROCEDURE saes3-nboulad.add_group; expected 7, got 6"}<br />
+<b>Warning</b>:  file_put_contents(/home/nboulad/public_html/VOTFY/api/controller/../logs/debug.log): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/GroupeController.php</b> on line <b>168</b><br />
+{"status":"error","message":"Erreur lors de la cr\u00e9ation du groupe : SQLSTATE[42000]: Syntax error or access violation: 1318 Incorrect number of arguments for PROCEDURE saes3-nboulad.add_group; expected 7, got 6"}<br />
+<b>Warning</b>:  file_put_contents(/home/nboulad/public_html/VOTFY/api/controller/../logs/debug.log): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/GroupeController.php</b> on line <b>169</b><br />
+{"status":"error","message":"Erreur lors de la cr\u00e9ation du groupe : SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens"}<br />
+<b>Warning</b>:  file_put_contents(/home/nboulad/public_html/VOTFY/api/controller/../logs/debug.log): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/GroupeController.php</b> on line <b>163</b><br />
+{"status":"error","message":"\u00c9chec de la cr\u00e9ation du groupe"}{"status":"error","message":"\u00c9chec de la cr\u00e9ation du groupe"}<br />
+<b>Warning</b>:  file_put_contents(/home/nboulad/public_html/VOTFY/api/controller../debug.log): Failed to open stream: No such file or directory in <b>/home/nboulad/public_html/VOTFY/api/controller/GroupeController.php</b> on line <b>163</b><br />
+{"status":"error","message":"\u00c9chec de la cr\u00e9ation du groupe"}{"status":"error","message":"\u00c9chec de la cr\u00e9ation du groupe"}{"status":"error","message":"\u00c9chec de la cr\u00e9ation du groupe"}{"status":"error","message":"\u00c9chec de la cr\u00e9ation du groupe"}{"status":"error","message":"\u00c9chec de la cr\u00e9ation du groupe"}{"status":"error","message":"\u00c9chec de la cr\u00e9ation du groupe"}{"status":"error","message":"\u00c9chec de la cr\u00e9ation du groupe"}{"status":"success","message":"Groupe cr\u00e9\u00e9 avec succ\u00e8s","id_groupe":29}{"status":"success","message":"Groupe cr\u00e9\u00e9 avec succ\u00e8s","id_groupe":30}{"status":"success","message":"Groupe cr\u00e9\u00e9 avec succ\u00e8s","id_groupe":31}{"status":"success","message":"Groupe cr\u00e9\u00e9 avec succ\u00e8s","id_groupe":32}{"status":"success","message":"Groupe cr\u00e9\u00e9 avec succ\u00e8s","id_groupe":33}{"status":"success","message":"Groupe cr\u00e9\u00e9 avec succ\u00e8s","id_groupe":34}{"status":"success","message":"Groupe cr\u00e9\u00e9 avec succ\u00e8s","id_groupe":35}<br />
+<b>Parse error</b>:  syntax error, unexpected token &quot;else&quot; in <b>/home/nboulad/public_html/VOTFY/api/routes/PropositionRoutes.php</b> on line <b>38</b><br />
+
+
+{"status":"success","propositions":[]}
+
+{"status":"success","propositions":[]}
+
+{"status":"success","propositions":[]}
+
+{"status":"success","propositions":[{"id_proposition":23,"id_groupe":34,"id_createur":69,"titre":"ya rien de mech mech","description":"mech mech","date_proposition":"2025-01-07","etat":"fermee","duree":10,"numero_tour":1,"budget":"80.00"},{"id_proposition":24,"id_groupe":34,"id_createur":69,"titre":"mech","description":"c mech mech mais ya tjr rien de mech mech","date_proposition":"2025-01-07","etat":"fermee","duree":28,"numero_tour":1,"budget":"54.00"}]}
+
+{"status":"success","propositions":[{"id_proposition":23,"id_groupe":34,"id_createur":69,"titre":"ya rien de mech mech","description":"mech mech","date_proposition":"2025-01-07","etat":"fermee","duree":10,"numero_tour":1,"budget":"80.00"},{"id_proposition":24,"id_groupe":34,"id_createur":69,"titre":"mech","description":"c mech mech mais ya tjr rien de mech mech","date_proposition":"2025-01-07","etat":"fermee","duree":28,"numero_tour":1,"budget":"54.00"}]}
+
+{"status":"success","propositions":[{"id_proposition":23,"id_groupe":34,"id_createur":69,"titre":"ya rien de mech mech","description":"mech mech","date_proposition":"2025-01-07","etat":"fermee","duree":10,"numero_tour":1,"budget":"80.00"},{"id_proposition":24,"id_groupe":34,"id_createur":69,"titre":"mech","description":"c mech mech mais ya tjr rien de mech mech","date_proposition":"2025-01-07","etat":"fermee","duree":28,"numero_tour":1,"budget":"54.00"},{"id_proposition":25,"id_groupe":34,"id_createur":69,"titre":"z","description":"z","date_proposition":"2025-01-07","etat":"fermee","duree":14,"numero_tour":1,"budget":"25.00"}]}
+
+{"status":"success","propositions":[{"id_proposition":28,"id_groupe":41,"id_createur":14,"titre":"NYBlP","description":"rrrrrrrrrrrrrr","date_proposition":"2025-01-07","etat":"fermee","duree":5,"numero_tour":1,"budget":"32.00"}]}
+
+{"status":"success","propositions":[]}
+
+{"status":"success","propositions":[]}
+
+{"status":"success","propositions":[]}
+
+{"status":"success","propositions":[]}
+
+{"status":"success","propositions":[]}
+
+{"status":"success","propositions":[{"id_proposition":28,"id_groupe":41,"id_createur":14,"titre":"NYBlP","description":"rrrrrrrrrrrrrr","date_proposition":"2025-01-07","etat":"fermee","duree":5,"numero_tour":1,"budget":"32.00"}]}
+
+{"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-10","etat":"fermee","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+
+{"status":"success","propositions":[{"id_proposition":20,"id_groupe":11,"id_createur":14,"titre":"Le Bivicm","description":"errrr","date_proposition":"2025-01-10","etat":"fermee","duree":2522,"numero_tour":1,"budget":"222.00"}]}
+
+{"status":"success","propositions":[{"id_proposition":28,"id_groupe":41,"id_createur":14,"titre":"NYBlP","description":"rrrrrrrrrrrrrr","date_proposition":"2025-01-07","etat":"fermee","duree":5,"numero_tour":1,"budget":"32.00"}]}
+
+{"status":"success","propositions":[]}

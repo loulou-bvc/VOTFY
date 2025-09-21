@@ -1,0 +1,291 @@
+
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background-color: #f4b3ca;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #FFCAD4;
+    color: #ffffff;
+    font-size: 1.4em;
+    padding: 10px 25px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+.btn-containerr{
+    font-size: 1.1em;
+    padding: 15px 25px;
+}
+.btn-voter {
+    background-color: #FFCAD4;
+    color: #1D3557;
+    border: none;
+    padding: 20px 47px;
+    margin-top: 5px;
+    border-radius: 15px;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    margin: 20px 0; /* Espace au-dessus et au-dessous du bouton */
+}
+.btn-voter:hover {
+    background-color: #F78FB3; /* Couleur au survol */
+    color: white; /* Texte blanc au survol */
+    transform: scale(1.1); /* Zoom au survol */
+}
+/* Grille des groupes */
+.groups-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 150px 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre le contenu horizontalement */
+    position: relative; /* Nécessaire pour positionner la flèche */
+    padding: 20px;
+    background-color: #F78FB3; /* Couleur rose comme dans l'exemple */
+}
+
+/* Titre centré */
+.header-title {
+    font-size: 2em;
+    color: white; /* Couleur du texte */
+    margin: 0;
+}
+#comments{
+    width: 50%;
+}
+.comments-section{
+    border: solid black;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+.comments-section::-webkit-scrollbar-thumb {
+    background-color: #f78fb3; /* Couleur de la barre */
+    border-radius: 10px; /* Arrondi de la barre */
+}
+
+.comments-section::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Couleur de l'arrière-plan */
+}
+/* Flèche de retour */
+.back-arrow {
+    position: absolute;
+    left: 30px; /* Place la flèche à gauche dans le header */
+    font-size: 36px; /* Taille de l'icône */
+    color: whitesmoke; /* Couleur rouge */
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+#title{
+    font-size: 2.5em;
+    font-weight: 750;
+    color: #00002e;
+}
+.back-arrow:hover {
+    transform: scale(1.2); /* Zoom au survol */
+    color: white; /* Couleur au survol */
+}
+
+.cardg-text{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 25px;
+    font-weight: 450;
+    font-size: 1.2em;
+    width: 35%;
+}
+/* Carte de groupe */
+.cardg {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 350px;
+    max-height: 830px;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 45px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.cardg-container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+
+.cardg:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+}
+
+.cardg:hover .icon {
+    background-position: -30px;
+    transition: all 0.3s ease;
+    border: #d33dad solid 0.2px;
+}
+
+.card #title {
+    width: 100%;
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#text {
+    text-align: left;
+}
+
+.icon {
+    margin: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 160px;
+    max-width: 160px;
+    background: linear-gradient(130deg, #f4b3ca 10%, #F78FB3 30%, rgba(156, 149, 149, 0.29) 60%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;
+}
+
+.cardg:hover .icon i {
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    background-color: #6200ea;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #3700b3;
+}
+
+.bi-eye-fill{
+    font-size: 2.2em;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .header-title {
+        font-size: 1.5rem;
+    }
+    .cardg-container{
+        flex-direction: column;
+    }
+    .cardg-text{
+        flex-direction: column;
+    }
+    #comments {
+        display: contents;
+    }
+
+    .cardg {
+        padding: 10px;
+    }
+
+    .btn-voter {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+
+    .cardg-container {
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: center;
+    }
+
+    #comments {
+        width: 100%; /* Prenez toute la largeur sur mobile */
+    }
+}
+
+@media (max-width: 576px) {
+    .groups-grid {
+        grid-template-columns: 1fr; /* Une seule colonne sur les petits écrans */
+    }
+
+    .header-container {
+        padding: 10px;
+    }
+
+    .btn-voter {
+        font-size: 0.8em;
+        padding: 5px 10px;
+    }
+
+    .cardg-text {
+        font-size: 0.9rem;
+    }
+
+    .comments-section {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+}

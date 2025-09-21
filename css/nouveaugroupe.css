@@ -1,0 +1,444 @@
+/* Style général pour le corps */
+body {
+    font-family: "Lato", sans-serif; /* Police principale */
+    background-color: rgb(211, 129, 129); /* Couleur de fond rose */
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Hauteur pleine pour centrer le contenu */
+}
+/* Conteneur principal */
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px; /* Espace en haut pour éviter que le logo touche le bord */
+    box-sizing: border-box;
+}
+
+/* Logo */
+.logo {
+    max-width: 200px; /* Taille maximale du logo */
+    margin-bottom: 20px; /* Espacement avec le formulaire */
+}
+header {
+    background-color: #f4b3ca;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre le contenu horizontalement */
+    position: relative; /* Nécessaire pour positionner la flèche */
+    padding: 50px;
+    background-color: #f4b3ca; /* Couleur rose comme dans l'exemple */
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #001223;
+    margin-bottom: 20px;
+}
+/* Champ de fichier pour l'image */
+
+/* Bouton pour l'importation de l'image */
+.image-upload-label {
+    display: inline-block;
+    padding: 10px;
+    background-color: #FFCAD4;
+    color: #1D3557;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-upload-label:hover {
+    background-color: #F78FB3;
+    color: white;
+}
+
+/* Champ de fichier caché */
+input[type="file"] {
+    display: none;
+}
+
+/* Conteneur d'aperçu de l'image */
+.image-preview {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image-preview img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+
+/* Liste déroulante */
+select {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    background-color: white;
+    appearance: none; /* Supprime l'apparence par défaut */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231D3557' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #F78FB3;
+    box-shadow: 0 0 5px rgba(247, 143, 179, 0.5);
+}
+
+/* Option dans la liste */
+option {
+    padding: 10px;
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Bouton "Créer le groupe" */
+.btn-creer-groupe {
+    background-color: #FFCAD4;
+    color: #1D3557;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-creer-groupe:hover {
+    background-color: #F78FB3;
+    color: white;
+}
+
+/* Étiquettes */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+input[type="text"]#nom {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* Champs texte et textarea */
+input[type="text"], textarea {
+    width: 70%;
+    padding: 10px;
+    margin: 25px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+}
+
+/* Champ couleur */
+input[type="color"] {
+    width: 30%;
+    height: 100px;
+    border: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/* Bouton de soumission */
+button {
+    background-color: #FFC107; /* Jaune doré */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #FFA000; /* Jaune plus foncé */
+}
+
+/* Zones de texte */
+textarea {
+    height: 150px;
+}
+
+/* Style des erreurs ou messages */
+.error, .success {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    background-color: #FFE3E3;
+    border: 1px solid #FFB3B3;
+}
+
+.success {
+    color: green;
+    background-color: #E3FFE3;
+    border: 1px solid #B3FFB3;
+}
+
+
+/* Titre centré */
+.header-title {
+    font-size: 2em;
+    color: white; /* Couleur du texte */
+    margin: 0;
+}
+.back-arrow {
+    position: absolute;
+    left: 30px; /* Place la flèche à gauche dans le header */
+    font-size: 36px; /* Taille de l'icône */
+    color: whitesmoke; /* Couleur rouge */
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.back-arrow:hover {
+    transform: scale(1.2); /* Zoom au survol */
+    color: white; /* Couleur au survol */
+}
+/* Conteneur principal de la page de connexion */
+.login-container {
+    background-color: white; /* Fond blanc pour contraster */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    padding: 60px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+    width: 95%;
+    max-width: 900px;
+    text-align: center;
+}
+.form-container {
+    background-color: rgba(246, 229, 233, 0.35);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 80px;
+    max-width: 900px;
+    text-align: center;
+}
+.group-form{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+.btn-creer-groupe{
+    margin: 50px;
+    border-radius: 20px;
+    width: auto;
+    font-size: 1.8em;
+    padding: 10px 25px;
+}
+/* Style du logo */
+.logo {
+    max-width: 230px; /* Taille du logo */
+    margin-bottom: 0px; /* Espacement avec le titre */
+}
+
+/* Style du titre */
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #001223; /* Bleu foncé */
+    margin: 40px; /* Espacement sous le titre */
+}
+
+/* Style des étiquettes */
+label {
+    display: block;
+    text-align: center; /* Aligné au centre */
+    margin-bottom: 15px;
+    color: #1D3557;
+    font-size: 1.4em;
+}
+
+/* Style des champs d'entrée */
+input {
+    width: 80%; /* Largeur totale */
+    padding: 10px;
+    margin: 35px;
+    border: 1px solid #ddd; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 14px;
+}
+
+/* Case à cocher */
+.checkbox-container {
+    display: flex;
+    align-items: center; /* Aligne verticalement */
+    justify-content: center; /* Aligne horizontalement à gauche */
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin: 35px;
+    transform: scale(1.1);
+    width: 10px;
+}
+
+#remember-me-text{
+    margin-bottom: 0;
+}
+
+/* Boutons */
+button {
+    max-width: 80%;
+    font-family: "Lato", sans-serif;
+    background-color: rgb(244, 179, 202); /* Bleu pastel */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition pour le survol */
+}
+
+/* Effet au survol des boutons */
+button:hover {
+    background-color: rgb(237, 104, 153); /* Bleu pastel */
+}
+
+/* Messages d'erreur */
+.error {
+    color: red;
+    background-color: #FFE3E3; /* Fond rose clair */
+    border: 1px solid #FFB3B3;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Liens */
+.register-link, .forgot-link {
+    margin-top: 15px;
+    display: block;
+    color: #8dc8e3;
+    font-size: 14px;
+}
+
+.register-link a, .forgot-link a {
+    color: #8dc8e3; /* Bleu foncé */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover, .forgot-link a:hover {
+    text-decoration: underline;
+    color: #457B9D; /* Bleu foncé */
+}
+
+.forgot-link {
+    margin-top: 40px;
+}
+
+/* Champ supplémentaire pour confirmer le mot de passe */
+
+
+
+
+img.logo:hover{
+    transform:scale(1.12);
+}
+
+
+/* Conteneur du pop-up (caché par défaut) */
+/* Conteneur du pop-up (caché par défaut) */
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    display: none; /* Caché par défaut */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Toujours au-dessus */
+}
+
+/* Contenu du pop-up */
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Texte du message */
+#popup-message {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    color: #333;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+/* Bouton dans le pop-up */
+.popup-content button {
+    background-color: #F78FB3; /* Jaune doré */
+    color: white;
+    border: none;
+    width: 40%;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.popup-content button:hover {
+    background-color: #f84282; /* Jaune plus foncé */
+}
+

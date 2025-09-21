@@ -1,0 +1,141 @@
+.footer {
+    background-color: white;
+    color: #001223;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+.footer-start-section p{
+    background-color: #f4b3ca;
+    margin: 0;
+    color: #1D3557;
+    font-size: 1.7em;
+    font-family: "Lilita One", sans-serif;
+    text-align: center;
+}
+
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.footer-logo-section {
+    text-align: center;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    flex: 1 1 250px;
+    display: flex;
+    margin: 15px;
+    justify-content: space-around;
+}
+
+.footer-column {
+    text-align: center;
+}
+
+.footer-column h3 {
+    margin-bottom: 13px;
+    font-size: 1.7em;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: #001223;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #F78FB3;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links li {
+    list-style: none;
+    font-size: 3em;
+    margin: 10px;
+}
+
+.social-links li a img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-newsletter {
+    text-align: center;
+}
+
+.footer-newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.footer-newsletter button {
+    padding: 10px;
+    background-color: #ffe3e3;
+    color: #333;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer-newsletter button:hover {
+        background-color: #FFCAD4;
+        color: #1D3557;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #1D3557;
+    padding-top: 10px;
+}
+
+@media (max-width: 1000px) { /*n'est pas encORE PRIS EN COMPTE ?'*/
+    .footer-links {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
